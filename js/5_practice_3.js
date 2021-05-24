@@ -26,7 +26,8 @@ function remebmerMyFilms() {
               b = prompt("Оценка?", "");
     
         if (a != null && b != null && a != '' && b != '' && a.length < 50) {
-            personalMovieDB.movies[a] = b; // а - значение объекта movies, b - его свойство. {a: "свойство", b: "свойство"}
+            personalMovieDB.movies[a] = b; 
+            // а - значение объекта movies, b - его свойство. {a: "свойство", b: "свойство"}
             console.log("Done!");
         } else {
             console.log("Error!");
