@@ -4,6 +4,7 @@ const arr = [1, 222, 31, 16, 48];
 arr.sort(compareNum);
 console.log(arr);
 
+// С помощью этой функции сортируем массив чисел по возвратснию
 function compareNum(a, b) {
     return a - b;
 }

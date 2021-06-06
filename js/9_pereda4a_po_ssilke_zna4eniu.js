@@ -29,6 +29,7 @@ function copy(mainObj) {
     return objCopy;
 }
 
+
 const numbers = {
     a: 2,
     b: 5,
@@ -106,6 +107,13 @@ log(...num);
 const array = ['a', 'b'];
 
 const newAarray = [...array];
+
+const q = {
+    one: 1,
+    two: 2
+};
+
+const newObj = {...q};
 
 
 // @@@@
